@@ -6,22 +6,15 @@
     <title>Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="header">
-        <h1>Dibendu</h1>
-        <nav class="navbar">
-            <a href="./home.html">Home</a>
-            <a href="./about.html" >About</a>
-            <a href="./product.html">Products</a>
-            <a href="./contact.html">Contact</a>
-            <a href="./login.html">Login</a>
-        </nav>
+<body class="login">
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="./index.html" class="form-container" method="get">
+        <input type="text" placeholder="Enter Username" required/> <br>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required/><br>
+        <button id="login-btn" type="submit">Login</button>
+        </form>
     </div>
-
-    <form action="" class="form-container">
-        <input type="text" placeholder="Enter Username" /> <br>
-        <input type="password" name="password" id="password" placeholder="Enter Password"/><br>
-        <button><a href="./login.html">Login</a></button>
-    </form>
+    
 </body>
 </html>

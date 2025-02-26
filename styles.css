@@ -24,6 +24,26 @@ a{
     color: #0cc106;
     font-size: 1.2rem;
 }
+#login-btn{
+    font-size: 1.5rem;
+    background-color:#96aba3;
+    text-decoration: none;
+    color: yellow;
+    
+}
+.navbar-list:hover{
+    scale: 1.05;
+}
+#login-btn a{
+    font-size: 1.5rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    color: white;
+}
 .project-head{
     text-align: center;
     font-size: 2.4rem;
@@ -68,10 +88,8 @@ s{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid;
     border-radius: 10px;
-    width: 30%;
-    box-shadow: 3px 3px 5px black;
+    width: 100%;
     margin: 40px auto;
     padding: 20px;
 }
@@ -93,4 +111,30 @@ s{
     cursor: pointer;
     font-weight: bold;
     margin-top: 10px;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 3px 3px 5px black;
+    margin: 40px auto;
+    padding: 20px;
+    background: url("https://images.unsplash.com/photo-1739476478915-8646a5f88d0d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    object-fit: cover;
+}
+input{
+    font-size: 20px;
+}
+.login{
+    background: url("https://plus.unsplash.com/premium_photo-1672362984731-3dea580b0df6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzN3x8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
 }
