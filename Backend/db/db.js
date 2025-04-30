@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+const app = require('express');
 const connectToDB = async () => {
     try{
         await mongoose.connect("mongodb://localhost:27017/ECOMZ");
